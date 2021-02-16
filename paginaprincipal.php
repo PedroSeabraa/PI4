@@ -83,7 +83,7 @@ if($check_evento)
        
 <div class="col-md-3 mt-5">
 <a href="paginaevento.php?id=<?php echo $id ?>"><form class="carta">  
-        <img src="<?php echo $row['foto']?>"  class="card-img-top imgevento1">
+        <img src="http://databasepi4.herokuapp.com/imagens/btt.jpg"  class="card-img-top imgevento1">
        <div class="card-body infevento1">
             <h4 class="card-title textoevento"><?php echo $row['nome'];  ?></h4>
         <p class="card-text textoevento"><?php echo $row['data_inicio'];?></p>
