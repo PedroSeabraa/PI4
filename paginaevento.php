@@ -47,7 +47,7 @@ require 'dbconfig.php';
 
 $id = $_GET["id"];
 
-$query = "SELECT * FROM eventos where id='$id'";
+$query = "SELECT * FROM evento where id='$id'";
 $query_run = mysqli_query($connection, $query);
 $check_evento = mysqli_num_rows($query_run) > 0;
 
@@ -58,11 +58,11 @@ if($check_evento)
        
         
         
-        ?><img src="<?php echo $row['imagem']?>"  class="card-img-top infimgeve" alt="">
+        ?><img src="<?php echo $row['foto']?>"  class="card-img-top infimgeve" alt="">
 <div class="textoevento2">
 <div class="inftitulo"><?php echo $row['nome']?></div>
-<div  class="infdata"><?php echo $row['data']?></div></br>
-<div class="infdetalhes"><?php echo $row['detalhes']?></div>
+<div  class="infdata"><?php echo $row['data_inicio']?></div></br>
+<div class="infdetalhes"><?php echo $row['descricao']?></div>
 </div>
 <?php
     }
