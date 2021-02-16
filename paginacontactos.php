@@ -44,7 +44,7 @@ require 'dbconfig.php';
 
 
 
-$query = "SELECT * FROM contactos where id=1";
+$query = "SELECT * FROM contacto";
 $query_run = mysqli_query($connection, $query);
 $check_evento = mysqli_num_rows($query_run) > 0;
 
@@ -69,8 +69,8 @@ if($check_evento)
 <p> Morada:&nbsp;&nbsp;<?php echo $row['morada'];  ?></p>
 <p>Tel:&nbsp;&nbsp;<?php echo $row['telefone'];  ?></p>
 <p>Email:&nbsp;&nbsp;<?php echo $row['email'];  ?></p>
-<a href="<?php echo $row['facebook'];?>"><img src="http://192.168.1.14/imagens/facebook.png" width="4%" class="icon"></a>
-<a href="<?php echo $row['instagram'];  ?>"><img src="http://192.168.1.14/imagens/instagram.png" width="4%"></a>
+<a href="<?php echo $row['facebook'];?>"><img src="http://databasepi4.herokuapp.com/imagens/facebook.png" width="4%" class="icon"></a>
+<a href="<?php echo $row['instagram'];  ?>"><img src="http://databasepi4.herokuapp.com/imagens/instagram.png" width="4%"></a>
 </div>
 
 </div>
