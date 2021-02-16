@@ -70,7 +70,7 @@ if($check_evento)
     }
 }
 
-?><a href="paginamapa.php?longitude=<?php echo $longitude ?>&latitude=<?php echo $latitude ?>"><div class="bntmapa">LOCALIZAÇÃO</div></a>
+?><a href="paginamapa.php?longitude=<?php echo $longitude; $latitude; ?>"><div class="bntmapa">LOCALIZAÇÃO</div></a>
 <a href="paginaprincipal.php"><div class="btnvoltar">VOLTAR</div></a>
 <a href="paginainscricao.php?id=<?php echo $id ?>"><div class="btninscrever">INSCREVER</div></a>
 <a href="paginainscritos.php?id=<?php echo $id ?>"><div class="btninscritos">INSCRITOS</div></a>
