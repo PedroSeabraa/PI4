@@ -9,10 +9,14 @@
   </head>
   <body>
     <div id="mapa"></div>
+    <?php
+    $longitude = $_GET["longitude"];
+    $latitude = $_GET["latitude"];
+    ?>
     <script>
 
       function mapa() {
-        var coordenadas = {lat: 40.6575, lng: -7.91428};
+        var coordenadas = {lat: <?php echo $latitude; ?>, lng: <?php echo $longitude; ?>};
 
         var mapa = new google.maps.Map(document.getElementById('mapa'), {
           zoom: 15,
