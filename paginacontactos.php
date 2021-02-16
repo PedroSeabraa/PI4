@@ -61,7 +61,7 @@ if($check_evento)
 <div class="textocontactos">
 <div class="inftitulo">Municipio Penacova</div></br>
 
-<div class="infdetalhes"><?php echo $row['detalhes'];  ?></div>
+<div class="infdetalhes"><?php echo $row['informacao'];  ?></div>
 </br></br>
 <div class="inftitulo">Contactos</div></br>
 
