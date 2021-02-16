@@ -293,7 +293,7 @@ height:85%;
 }
 .bntmapa{ 
 	border-radius:35px;
-	position:relative;
+	position:absolute;
 	background-color:invisible;
 	width:5%;
 	padding:0.5%;
