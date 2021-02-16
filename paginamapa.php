@@ -16,7 +16,7 @@
     <script>
 
       function mapa() {
-        var coordenadas = {lat: <?php echo $latitude; ?>, lng: <?php echo $longitude; ?>};
+        var coordenadas = {lat: <?php echo $latitude ?>, lng: <?php echo $longitude ?>};
 
         var mapa = new google.maps.Map(document.getElementById('mapa'), {
           zoom: 15,
