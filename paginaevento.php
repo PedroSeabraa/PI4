@@ -45,9 +45,9 @@ if (_isNS('google.translate.Element')){return}(function(){var c=_setupNS('google
 
 require 'dbconfig.php';
 
-$id = $_GET["id"];
+$id_evento = $_GET["id_evento"];
 
-$query = "SELECT * FROM evento where id='$id'";
+$query = "SELECT * FROM evento where id_evento='$id_evento'";
 $query_run = mysqli_query($connection, $query);
 $check_evento = mysqli_num_rows($query_run) > 0;
 
