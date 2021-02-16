@@ -86,7 +86,7 @@ if($check_evento)
         <img src="<?php echo $row['foto']?>"  class="card-img-top imgevento1">
        <div class="card-body infevento1">
             <h4 class="card-title textoevento"><?php echo $row['nome'];  ?></h4>
-        <p class="card-text textoevento"><?php echo $row['id_evento'];?></p>
+        <p class="card-text textoevento"><?php echo $row['data_inicio'];?></p>
              
     </div>
     </form> 
