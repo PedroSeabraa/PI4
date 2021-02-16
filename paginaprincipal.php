@@ -66,7 +66,7 @@ if (_isNS('google.translate.Element')){return}(function(){var c=_setupNS('google
 require 'dbconfig.php';
 
 
-$query = "SELECT * FROM eventos";
+$query = "SELECT * FROM evento";
 $query_run = mysqli_query($connection, $query);
 $check_evento = mysqli_num_rows($query_run) > 0;
 
@@ -76,17 +76,17 @@ if($check_evento)
     while($row = mysqli_fetch_array($query_run))
     {   
         
-        $id = $row['id'];
+        $id = $row['id_evento'];
        
         
         ?>
        
 <div class="col-md-3 mt-5">
 <a href="paginaevento.php?id=<?php echo $id ?>"><form class="carta">  
-        <img src="<?php echo $row['imagem']?>"  class="card-img-top imgevento1">
+        <img src="<?php echo $row['foto']?>"  class="card-img-top imgevento1">
        <div class="card-body infevento1">
             <h4 class="card-title textoevento"><?php echo $row['nome'];  ?></h4>
-        <p class="card-text textoevento"><?php echo $row['data'];?></p>
+        <p class="card-text textoevento"><?php echo $row['data_inicio'];?></p>
              
     </div>
     </form> 
