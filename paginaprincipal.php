@@ -82,7 +82,7 @@ if($check_evento)
         ?>
        
 <div class="col-md-3 mt-5">
-<a href="paginaevento.php?id_evento=<?php echo $id ?>"><form class="carta">  
+<a href="paginaevento.php?id_evento=<?php echo $id_evento ?>"><form class="carta">  
         <img src="<?php echo $row['foto']?>"  class="card-img-top imgevento1">
        <div class="card-body infevento1">
             <h4 class="card-title textoevento"><?php echo $row['nome'];  ?></h4>
