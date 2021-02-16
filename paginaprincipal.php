@@ -76,7 +76,7 @@ if($check_evento)
     while($row = mysqli_fetch_array($query_run))
     {   
         
-        $id = $row['id_evento'];
+        $id_evento = $row['id_evento'];
        
         
         ?>
