@@ -60,7 +60,7 @@ if($check_evento)
         
         ?><img src="<?php echo $row['foto']?>"  class="card-img-top infimgeve" alt="">
 <div class="textoevento2">
-<div class="inftitulo"><?php echo $row['nome']?></div><a href="paginamapa.php"><div class="bntmapa">LOCALIZAÇÃO</div></a>
+<div class="inftitulo"><?php echo $row['nome']?></div>
 <div  class="infdata"><?php echo $row['data_inicio']?></div></br>
 <div class="infdetalhes"><?php echo $row['descricao']?></div>
 </div>
@@ -68,7 +68,7 @@ if($check_evento)
     }
 }
 
-?>
+?><a href="paginamapa.php"><div class="bntmapa">LOCALIZAÇÃO</div></a>
 <a href="paginaprincipal.php"><div class="btnvoltar">VOLTAR</div></a>
 <a href="paginainscricao.php?id=<?php echo $id ?>"><div class="btninscrever">INSCREVER</div></a>
 <a href="paginainscritos.php?id=<?php echo $id ?>"><div class="btninscritos">INSCRITOS</div></a>
