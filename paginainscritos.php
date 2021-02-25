@@ -35,7 +35,7 @@ require 'dbconfig.php';
 $id_evento = $_GET["id"];?>
 
 <div class="cabecalho">
-<a href="paginaevento.php?id=<?php echo $id_evento ?>"><div class="voltarins">↖ VOLTAR</div></a>
+<a href="paginaevento.php?id_evento=<?php echo $id_evento ?>"><div class="voltarins">↖ VOLTAR</div></a>
 <div class="lingua"> <div id="google_translate_element"></div></div>
 <a href="paginaprincipal.php"><div class="logopn"></div></a>
 <a href="paginacontactos.php"><div class="cnt">CONTACTOS</div></a>
