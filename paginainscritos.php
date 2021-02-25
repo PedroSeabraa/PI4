@@ -57,7 +57,7 @@ $id = $_GET["id"];?>
 
 
 
-$query = "SELECT * FROM inscritos where idevento='$id'";
+$query = "SELECT * FROM utilizadores where evento_id_evento='$id'";
 $query_run = mysqli_query($connection, $query);
 $check_evento = mysqli_num_rows($query_run) > 0;
 
