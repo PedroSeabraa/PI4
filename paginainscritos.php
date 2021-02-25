@@ -32,7 +32,7 @@ if (_isNS('google.translate.Element')){return}(function(){var c=_setupNS('google
 <?php
 require 'dbconfig.php';
 
-$id_evento = $_GET["id_evento"];?>
+$id_evento = $_GET["id"];?>
 
 <div class="cabecalho">
 <a href="paginaevento.php?id=<?php echo $id_evento ?>"><div class="voltarins">↖ VOLTAR</div></a>
