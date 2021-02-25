@@ -32,10 +32,10 @@ if (_isNS('google.translate.Element')){return}(function(){var c=_setupNS('google
 <?php
 require 'dbconfig.php';
 
-$id = $_GET["id"];?>
+$id_evento = $_GET["id_evento"];?>
 
 <div class="cabecalho">
-<a href="paginaevento.php?id=<?php echo $id ?>"><div class="voltarins">↖ VOLTAR</div></a>
+<a href="paginaevento.php?id=<?php echo $id_evento ?>"><div class="voltarins">↖ VOLTAR</div></a>
 <div class="lingua"> <div id="google_translate_element"></div></div>
 <a href="paginaprincipal.php"><div class="logopn"></div></a>
 <a href="paginacontactos.php"><div class="cnt">CONTACTOS</div></a>
@@ -57,7 +57,7 @@ $id = $_GET["id"];?>
 
 
 
-$query = "SELECT * FROM utilizadores where evento_id_evento='$id'";
+$query = "SELECT * FROM utilizadores where evento_id_evento='$id_evento'";
 $query_run = mysqli_query($connection, $query);
 $check_evento = mysqli_num_rows($query_run) > 0;
 
