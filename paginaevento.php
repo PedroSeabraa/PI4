@@ -45,10 +45,10 @@ if (_isNS('google.translate.Element')){return}(function(){var c=_setupNS('google
 
 require 'dbconfig.php';
 
-$id = $_GET["id_evento"];
+$id_evento = $_GET["id_evento"];
 
 
-$query = "SELECT * FROM evento where id_evento='$id'";
+$query = "SELECT * FROM evento where id_evento='$id_evento'";
 $query_run = mysqli_query($connection, $query);
 $check_evento = mysqli_num_rows($query_run) > 0;
 
@@ -72,8 +72,8 @@ $latitude = $row['latitude'];
 
 ?><a href="paginamapa.php?longitude=<?php echo $longitude?>&latitude=<?php echo $latitude ?>"><div class="bntmapa">LOCALIZAÇÃO</div></a>
 <a href="paginaprincipal.php"><div class="btnvoltar">VOLTAR</div></a>
-<a href="paginainscricao.php?id=<?php echo $id ?>"><div class="btninscrever">INSCREVER</div></a>
-<a href="paginainscritos.php?id=<?php echo $id ?>"><div class="btninscritos">INSCRITOS</div></a>
+<a href="paginainscricao.php?id=<?php echo $id_evento ?>"><div class="btninscrever">INSCREVER</div></a>
+<a href="paginainscritos.php?id=<?php echo $id_evento ?>"><div class="btninscritos">INSCRITOS</div></a>
 </div>
 </div>
 </body>
