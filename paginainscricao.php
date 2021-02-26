@@ -128,8 +128,9 @@ $email=$_POST['email'];
 $acompanhantes=$_POST['acompanhantes'];
 $idade=$_POST['idade'];
 $codigo=$_POST['codigo'];
+$genero=$_POST['genero'];
 
-$sql="INSERT INTO utilizadores (nome, evento_id_evento, localidade, codigo_postal, contacto, email, acompanhante, idade, refeicao, federado, nr_federado) VALUES ('$nome', '$id', '$morada', '$codigopostal', '$contacto', '$email', '$acompanhantes', '$idade', '$refeicao', '$federado', '$codigo')";
+$sql="INSERT INTO utilizadores (nome, evento_id_evento, genero, localidade, codigo_postal, contacto, email, acompanhante, idade, refeicao, federado, nr_federado) VALUES ('$nome', '$id', '$genero', '$morada', '$codigopostal', '$contacto', '$email', '$acompanhantes', '$idade', '$refeicao', '$federado', '$codigo')";
  mysqli_query($connection, $sql);
  
  
@@ -182,9 +183,10 @@ var varnome   = document.getElementById('nome').value;
   
   if(varfederado == "Sim")
 		{total1 = dbdescontofederado; 
-		  document.getElementById('codigo').required = true;
+		  document.getElementById('codigo2').required = true;
 	  document.getElementById('codigo').style.display='block';}
 		else{total1= 0;
+		      document.getElementById('codigo2').required = false;
 		document.getElementById('codigo').style.display='none';}
 		 if(varrefeicao == "Sim"){   total2 = dbprecorefeicao;
 		 total3 = varacompanhantes*(dbprecoacompanhante+dbprecorefeicao);}
@@ -223,7 +225,7 @@ var varnome   = document.getElementById('nome').value;
 
 <div class="camposinscricaodir">
 <div class="campossecundarios">Idade </br><input type="number" id="idade" name="idade" class="campoidade" required>
-</br><div id="codigo" style='display:none;'>Codigo</br><input type="number" id="codigo" name="codigo" class="campoidade"></div>
+</br><div id="codigo" style='display:none;'>Codigo</br><input type="number" id="codigo2" name="codigo" class="campoidade"></div>
 </div>
 <div class="dadoscentro">
 <div class="nomec">Gênero</br>
