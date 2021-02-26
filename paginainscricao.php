@@ -127,8 +127,9 @@ $contacto=$_POST['contacto'];
 $email=$_POST['email'];
 $acompanhantes=$_POST['acompanhantes'];
 $idade=$_POST['idade'];
+$codigo=$_POST['codigo'];
 
-$sql="INSERT INTO utilizadores (nome, evento_id_evento, localidade, codigo_postal, contacto, email, acompanhante, idade, refeicao, federado) VALUES ('$nome', '$id', '$morada', '$codigopostal', '$contacto', '$email', '$acompanhantes', '$idade', '$refeicao', '$federado')";
+$sql="INSERT INTO utilizadores (nome, evento_id_evento, localidade, codigo_postal, contacto, email, acompanhante, idade, refeicao, federado, nr_federado) VALUES ('$nome', '$id', '$morada', '$codigopostal', '$contacto', '$email', '$acompanhantes', '$idade', '$refeicao', '$federado', '$codigo')";
  mysqli_query($connection, $sql);
  
  
