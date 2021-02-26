@@ -1,6 +1,7 @@
 @font-face{
-font-family:"Canaro";
-	src:url:("font/Canaro-Medium.ttf")
+font-family:'Canaro';
+	src: url(font/Canaro-Medium.ttf);
+	font-style:normal;
 }
 
 
