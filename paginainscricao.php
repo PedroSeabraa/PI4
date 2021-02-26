@@ -128,7 +128,7 @@ $email=$_POST['email'];
 $acompanhantes=$_POST['acompanhantes'];
 $idade=$_POST['idade'];
 
-$sql="INSERT INTO inscritos (nome, idevento, morada, codigopostal, contacto, email, acompanhantes, idade, refeicao, federado) VALUES ('$nome', '$id', '$morada', '$codigopostal', '$contacto', '$email', '$acompanhantes', '$idade', '$refeicao', '$federado')";
+$sql="INSERT INTO utilizadores (nome, evento_id_evento, localidade, codigo_postal, contacto, email, acompanhante, idade, refeicao, federado) VALUES ('$nome', '$id', '$morada', '$codigopostal', '$contacto', '$email', '$acompanhantes', '$idade', '$refeicao', '$federado')";
  mysqli_query($connection, $sql);
  
  
@@ -137,7 +137,7 @@ $sql="INSERT INTO inscritos (nome, idevento, morada, codigopostal, contacto, ema
 
 
 <?php
-$query = "SELECT * FROM eventos where id='$id'";
+$query = "SELECT * FROM evento where id_evento='$id'";
 $query_run = mysqli_query($connection, $query);
 $check_evento = mysqli_num_rows($query_run) > 0;
 
@@ -147,9 +147,9 @@ if($check_evento)
     {
 
       $preco= $row['preco'];
-	  $precorefeicao= $row['precorefeicao'];
-	  $precoacompanhante= $row['precoacompanhante'];
-	    $descontofederado= $row['descontofederado'];
+	  $precorefeicao= $row['preco_refeicao'];
+	  $precoacompanhante= $row['preco_acomp'];
+	    $descontofederado= $row['preco_f'];
 }} ?>
 
 
@@ -256,7 +256,7 @@ var varnome   = document.getElementById('nome').value;
 
 <p class="custoc">Custo de Inscrição:   <span id="precoi"></span>€</p>
 
-<a href="paginaevento.php?id=<?php echo $id ?>" <div class="btnvoltarins">VOLTAR</div></a>
+<a href="paginaevento.php?id_evento=<?php echo $id ?>" <div class="btnvoltarins">VOLTAR</div></a>
  <button class="btninscreverins" onclick="ShowElement()">INSCREVER</button>
 
 
