@@ -182,6 +182,7 @@ var varnome   = document.getElementById('nome').value;
   
   if(varfederado == "Sim")
 		{total1 = dbdescontofederado; 
+		 document.getElementById("codigo").attributes["required"] = "";  
 	  document.getElementById('codigo').style.display='block';}
 		else{total1= 0;
 		document.getElementById('codigo').style.display='none';}
