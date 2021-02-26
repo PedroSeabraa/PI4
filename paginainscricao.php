@@ -129,8 +129,9 @@ $acompanhantes=$_POST['acompanhantes'];
 $idade=$_POST['idade'];
 $codigo=$_POST['codigo'];
 $genero=$_POST['genero'];
-
-$sql="INSERT INTO utilizadores (nome, evento_id_evento, genero, localidade, codigo_postal, contacto, email, acompanhante, idade, refeicao, federado, nr_federado) VALUES ('$nome', '$id', '$genero', '$morada', '$codigopostal', '$contacto', '$email', '$acompanhantes', '$idade', '$refeicao', '$federado', '$codigo')";
+$total=$_POST['total'];
+	
+$sql="INSERT INTO utilizadores (nome, evento_id_evento, genero, localidade, codigo_postal, contacto, email, acompanhante, idade, refeicao, federado, nr_federado, valor_pagamento) VALUES ('$nome', '$id', '$genero', '$morada', '$codigopostal', '$contacto', '$email', '$acompanhantes', '$idade', '$refeicao', '$federado', '$codigo', '$total')";
  mysqli_query($connection, $sql);
  
  
@@ -196,6 +197,7 @@ var varnome   = document.getElementById('nome').value;
   	total= dbpreco - total1 + total2 + total3;
  document.getElementById("precoi").innerHTML = total; 
   document.getElementById("precoi2").innerHTML = total; 
+document.getElementById("total").value = total;
 }</script>
 
 
@@ -257,7 +259,7 @@ var varnome   = document.getElementById('nome').value;
 
 </div>
 
-
+<input type="hidden" id="total" name="total" value="" />
 <p class="custoc">Custo de Inscrição:   <span id="precoi"></span>€</p>
 
 <a href="paginaevento.php?id_evento=<?php echo $id ?>" <div class="btnvoltarins">VOLTAR</div></a>
