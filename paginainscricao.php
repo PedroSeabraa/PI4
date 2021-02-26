@@ -222,7 +222,7 @@ var varnome   = document.getElementById('nome').value;
 
 <div class="camposinscricaodir">
 <div class="campossecundarios">Idade </br><input type="number" id="idade" name="idade" class="campoidade" required>
-</br><div id="codigo" style='display:none;'>Codigo</br><input type="number" id="codigo" name="codigo" class="campoidade" required></div>
+</br><div id="codigo" style='display:none;'>Codigo</br><input type="number" id="codigo" name="codigo" class="campoidade"></div>
 </div>
 <div class="dadoscentro">
 <div class="nomec">Gênero</br>
