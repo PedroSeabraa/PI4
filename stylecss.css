@@ -3,9 +3,7 @@ font-family:"Canaro";
 	src:url:("font/Canaro-Medium.ttf")
 }
 
-html{
-font-family:Canaro;
-}
+
 .noscroll{
 	overflow: hidden;
 }
@@ -15,7 +13,7 @@ html, body{
     min-height: 0!important;
 	height: 100%!important;
     position: inherit!important;
-	
+	font-family:Canaro;
 	font-size: 100%;
 	overflow-x: hidden;
 
