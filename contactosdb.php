@@ -16,6 +16,6 @@ print(json_encode($flag));
 	
 }
 mysqli_close($connection);
-echo '{' . json_encode($flag) . '}';
+echo '{ "result" : ' . json_encode($flag) . '}';
 
 ?>
