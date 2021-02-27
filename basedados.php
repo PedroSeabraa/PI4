@@ -1,13 +1,13 @@
 <?php
 
 //host name
-$host = "localhost";
+$host = "us-cdbr-east-03.cleardb.com";
 //user name
-$username = "root";
+$username = "b8223fae969424";
 //database password
-$pwd = "";
+$pwd = "f012793b";
 //database name.
-$db = "pi4";
+$db = "heroku_0a48125453dc4de";
 
 $con=mysqli_connect($host,$username,$pwd,$db) or die("Unable to Connect");
 
@@ -16,7 +16,7 @@ if(mysqli_connect_error($con))
 	echo "Failed to connect";
 }
 
-$query=mysqli_query($con, "SELECT * FROM eventos");
+$query=mysqli_query($con, "SELECT * FROM evento");
 
 if($query)
 {
