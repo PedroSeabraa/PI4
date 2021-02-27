@@ -4,7 +4,7 @@ require 'dbconfig.php';
 
 session_start();
 
-$query=mysqli_query($connection, "SELECT * FROM contacto");
+$query=mysqli_query($connection, "SELECT * FROM evento");
 
 if($query)
 {
