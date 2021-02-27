@@ -1,4 +1,3 @@
-hmmm
 <?php
 
 //host name
