@@ -5,7 +5,7 @@ require 'dbconfig.php';
 
 session_start();
 
-$query=mysqli_query($connection, "SELECT * FROM evento");
+$query=mysqli_query($connection, "SELECT * FROM heroku_0a48125453dc4de.evento");
 
 if($query)
 {
