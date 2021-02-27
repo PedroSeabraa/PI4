@@ -93,7 +93,7 @@ else
 if(!empty($nome) && !empty($contacto))
 {
 	
-    $queryResult = mysqli_query($connection, "INSERT INTO inscritos (nome, idevento, email, morada, contacto, codigopostal, federado, refeicao, acompanhantes, genero, idade, codigo) VALUES('$nome', '$Holderid', '$email', '$morada', '$contacto', '$codigopostal', '$federado', '$refeicao', '$acompanhantes', '$genero', '$idade', '$codigo')");
+    $queryResult = mysqli_query($connection, "INSERT INTO utilizadores (nome, evento_id_evento, email, localidade, contacto, codigo_postal, federado, refeicao, acompanhante, genero, idade, nr_federado) VALUES('$nome', '$Holderid', '$email', '$morada', '$contacto', '$codigopostal', '$federado', '$refeicao', '$acompanhantes', '$genero', '$idade', '$codigo')");
 
 
     mysqli_close($connection);
