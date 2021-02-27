@@ -26,7 +26,7 @@ while($row=mysqli_fetch_array($query))
 	$flag[]=$row;
 	}
 print(json_encode($flag));
-	echo "olaaa";
+	echo '{' . json_encode($flag) . '}';
 	
 }
 mysqli_close($con);
