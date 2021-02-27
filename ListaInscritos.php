@@ -1,5 +1,4 @@
-return
-<?php
+
 
 //host name
 $host = "us-cdbr-east-03.cleardb.com";
@@ -40,4 +39,4 @@ print(json_encode($flag));
 mysqli_close($con);
 
 
-?>
+
