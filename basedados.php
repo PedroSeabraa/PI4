@@ -1,4 +1,5 @@
 <?php
+
 require 'dbconfig.php';
 
 session_start();
@@ -14,7 +15,6 @@ while($row=mysqli_fetch_array($query))
 print(json_encode($flag));
 }
 mysqli_close($connection);
-
 
 
 ?>
