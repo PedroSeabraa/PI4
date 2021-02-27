@@ -1,13 +1,13 @@
 <?php
 
 //host name
-$host = "localhost";
+$host = "us-cdbr-east-03.cleardb.com";
 //user name
-$username = "root";
+$username = "b8223fae969424";
 //database password
-$pwd = "";
+$pwd = "f012793b";
 //database name.
-$db = "pi4";
+$db = "heroku_0a48125453dc4de";
 
 session_start();
 
@@ -26,7 +26,7 @@ else
     $id = "0";
 }
 
-$query=mysqli_query($con, "SELECT * FROM inscritos WHERE idevento ='$id'");
+$query=mysqli_query($con, "SELECT * FROM utilizadores WHERE evento_id_evento ='$id'");
 
 if($query)
 {
