@@ -1,4 +1,3 @@
-ppp
 <?php
 
 require 'dbconfig.php';
