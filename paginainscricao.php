@@ -215,7 +215,7 @@ document.getElementById("total").value = total;
 </div>
 <div class="nomec">Morada <p class="codigop">Código Postal</p></br>
 <input type="text"  name="morada" id="morada" class="campomorada" required>
-<input type="number" id="codigopostal"  name="codigopostal" class="campocodigop" required>
+<input type="text" id="codigopostal"  name="codigopostal" class="campocodigop" required>
 </div>
 <div class="nomec">Contacto</br>
 <input type="number" name="contacto" id="contacto" class="camponome" required>
