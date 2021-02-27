@@ -25,7 +25,7 @@ while($row=mysqli_fetch_array($query))
 	{
 	$flag[]=$row;
 	}
-echo(json_encode($flag));
+print(json_encode($flag));
 	
 }
 mysqli_close($con);
