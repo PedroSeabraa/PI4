@@ -9,7 +9,7 @@ $username = "b8223fae969424";
 $pwd = "f012793b";
 //database name.
 $db = "heroku_0a48125453dc4de";
-
+session_start();
 $con=mysqli_connect($host,$username,$pwd,$db) or die("Unable to Connect");
 
 if(mysqli_connect_error($con))
