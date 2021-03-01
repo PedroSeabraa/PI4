@@ -61,13 +61,14 @@
  
 
 <?php
+require 'dbconfig.php';
 session_start();
 if(empty($_SESSION))
 {
   session_destroy();
   echo "<script> location.href='login.php'; </script>";
 }
-require 'dbconfig.php';
+
 
 
 $sql="";
