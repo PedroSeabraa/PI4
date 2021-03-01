@@ -78,7 +78,7 @@ $sql="";
 // Insert
     mysqli_query($connection,"INSERT INTO admins (nome, password, email, contacto)
 				VALUES
-				('$_POST[Nome]','$_POST[password]','$_POST[email]','$_POST[contacto]')")
+				('$_POST[nome]','$_POST[password]','$_POST[email]','$_POST[contacto]')")
  
  echo "<script> location.href='admin.php'; </script>";
 ?>
