@@ -16,13 +16,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+	  @font-face{
+font-family:'Canaro';
+	src: url(font/Canaro-Book.ttf);
+}
 body {
     margin: 50px auto;
     text-align: center;
     width: 800px;
 }
 h1 {
-    font-family: 'Passion One';
+    font-family: 'Canaro';
     font-size: 2rem;
     text-transform: uppercase;
 }
@@ -31,13 +35,13 @@ label {
     display: inline-block;
     text-align: left;
     font-size: 1.5rem;
-    font-family: 'Lato';
+    font-family: 'Canaro';
 }
 input {
     border: 2px solid #ccc;
     font-size: 1.5rem;
     font-weight: 100;
-    font-family: 'Lato';
+    font-family: 'Canaro';
     padding: 10px;
 }
 form {
@@ -53,7 +57,7 @@ div.form-element {
 button {
     padding: 10px;
     font-size: 1.5rem;
-    font-family: 'Lato';
+    font-family: 'Canaro';
     font-weight: 100;
     background: yellowgreen;
     color: white;
