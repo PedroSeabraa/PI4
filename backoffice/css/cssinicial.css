@@ -2,9 +2,9 @@
 font-family:'Canaro';
 	src: url(font/Canaro-Book.ttf);
 }
-
-
-
+body{
+font-family:'Canaro';
+	}
 
 .sidebar-container {
   position: fixed;
