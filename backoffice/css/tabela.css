@@ -1,3 +1,11 @@
+@font-face{
+font-family:'Canaro';
+	src: url(font/Canaro-Book.ttf);
+}
+
+body{font-family:'Canaro';
+}
+
 .container {
   padding: 2rem 0rem;
 }
