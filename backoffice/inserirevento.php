@@ -78,9 +78,9 @@ $sql="";
     mysqli_query($connection,"INSERT INTO evento (Nome, descricao, preco, preco_f, preco_refeicao, preco_acomp,data_inicio,tipo_evento,foto,longitude,latitude)
 				VALUES
 				('$_POST[Nome]','$_POST[descricao]','$_POST[preco]','$_POST[precof]','$_POST[precor]','$_POST[precoa]','$_POST[data]','$_POST[tipo]','$_POST[foto]','$_POST[longitude]','$_POST[latitude]')")
- echo "<script> location.href='evento.php'; </script>";
-?>
 
+?>
+<h1>Inserido com sucesso</h1>
 </body>
 
 </html>
