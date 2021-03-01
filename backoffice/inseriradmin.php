@@ -98,9 +98,9 @@ else{
 				VALUES
 				('$_POST[Nome]','$_POST[password]','$_POST[email]','$_POST[contacto]')")
  
- echo "<script> location.href='admin.php'; </script>";
-?>
 
+?>
+<h1>Inserido com sucesso</h1>
 </body>
 
 </html>
