@@ -133,7 +133,7 @@ p.error {
             </p>  
         </form>  
     </div>  
-    // validation for empty field   
+       
     <script>  
             function validation()  
             {  
