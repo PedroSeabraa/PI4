@@ -3,7 +3,7 @@ font-family:'Canaro';
 	src: url(databasepi4.herokuapp.com/font/Canaro-Book.ttf);
 }
 
-body{font-family:'Canaro';
+body{font-family:Canaro;
 }
 
 .container {
