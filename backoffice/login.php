@@ -18,7 +18,7 @@
 }
 	  @font-face{
 font-family:'Canaro';
-	src: url(font/Canaro-Book.ttf);
+	src: url(databasepi4.herokuapp.com/font/Canaro-Book.ttf);
 }
 body {
     margin: 50px auto;
