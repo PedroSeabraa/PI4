@@ -87,13 +87,13 @@ p.error {
     </li>
     <li>
       <a href="#">
-        <i class="fa fa-tachometer" aria-hidden="true" ></i> <a href="Admin.php">Admin</a>
+        <i class="fa fa-tachometer" aria-hidden="true" ></i> <a href="admin.php">Admin</a>
 
       </a>
     </li>
 			<li>
       <a href="#">
-        <i class="fa fa-tachometer" aria-hidden="true" ></i> <a href="Eventos.php">Eventos</a>
+        <i class="fa fa-tachometer" aria-hidden="true" ></i> <a href="eventos.php">Eventos</a>
 
       </a>
     </li>
