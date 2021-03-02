@@ -105,8 +105,8 @@ $dataRow = "";
 while($row2 = mysqli_fetch_array($result2))
 {
     $dataRow = $dataRow."<tr><td>$row2[1]</td><td>$row2[2]</td><td>$row2[3]</td><td>$row2[4]</td>
-    <td>$row2[5]</td><td>$row2[6]</td><td>$row2[7]</td><td>$row2[8]</td>
-    <td>$row2[10]</td><td>$row2[13]</td><td>$row2[14]</td><td><a href=editarutilizadores.php?id=".$row2[0]." >Editar</a><br><a href=apagarutilizador.php?id=".$row2[0]." >Apagar</a></td></tr>";
+    <td>$row2[5]</td><td>$row2[12]</td><td>$row2[9]</td><td>$row2[10]</td>
+    <td>$row2[13]</td><td>$row2[14]</td><td><a href=editarutilizadores.php?id=".$row2[0]." >Editar</a><br><a href=apagarutilizador.php?id=".$row2[0]." >Apagar</a></td></tr>";
 }
 
  echo $dataRow;?>		
