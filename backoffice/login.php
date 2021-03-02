@@ -14,6 +14,7 @@
 	  @font-face{
          font-family:'Canaro';
 	src: url(/css/Canaro-Book.ttf);
+	  }
 	  
   * {
     padding: 0;
@@ -26,7 +27,7 @@ body {
     margin: 50px auto;
     text-align: center;
     width: 800px;
-   font-family:Arial;
+   font-family:Canaro;
 }
 h1 {
     font-size: 2rem;
