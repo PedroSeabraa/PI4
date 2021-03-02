@@ -20,10 +20,6 @@
 }
 	
 
-body {
-    margin: 50px auto;
-  
-}
 h1 {
     font-size: 2rem;
     text-transform: uppercase;
