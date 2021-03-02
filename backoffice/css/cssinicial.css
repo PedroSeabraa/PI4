@@ -4,11 +4,12 @@
 	  }
 
 #myBtn{
-  width:27%;
+  width:14%;
 	padding:10px;
 		  color:#2F5D3F;
 		   border: 2px solid #2F5D3F;
 		font-weight: bold;
+	margin-left:10px;
 }
 body{
 font-family:Arial;
