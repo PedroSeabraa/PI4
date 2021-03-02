@@ -65,7 +65,7 @@
         <thead>
           <tr>
 		        <th scope="col">Nome</th>
-            <th scope="col">Descricao</th>
+            <th scope="col">Descrição</th>
             <th scope="col">Preço</th>
             <th scope="col">Preço Federado</th>
             <th scope="col">Data Inicio</th>
