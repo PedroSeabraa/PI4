@@ -1,7 +1,7 @@
 @font-face{
-font-family:'Canaro';
-	src: url(databasepi4.herokuapp.com/font/Canaro-Book.ttf);
-}
+         font-family:'Canaro';
+	src: url(/css/Canaro-Book.ttf);
+	  }
 body{
 font-family:Canaro;
 	}
@@ -79,7 +79,7 @@ font-family:Canaro;
 .sidebar-navigation .header {
   font-size: 12px;
   text-transform: uppercase;
-  background-color: #151515;
+  background-color: #2F5D3F;
   padding: 10px 15px 10px 30px;
 }
 
