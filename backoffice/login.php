@@ -12,11 +12,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <style>  
 	  
-	  #btn{
-		background:#2F5D3F;  
+	  #btn{ 
 		  width:34%;
-		  color:white;
-		  opacity:0,5;
+		  color:#2F5D3F;
+		   border: 2px solid #2F5D3F;
+		 
 	  }	  
   * {
     padding: 0;
