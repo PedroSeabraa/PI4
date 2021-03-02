@@ -22,7 +22,7 @@
     box-sizing: border-box;
 }
 	
-}
+
 body {
     margin: 50px auto;
     text-align: center;
