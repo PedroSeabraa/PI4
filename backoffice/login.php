@@ -40,14 +40,14 @@ input {
 	margin-top:4%;
 }
 form {
-    margin: 15% auto;
+    margin: 10% auto;
     padding: 20px;
     border: 5px solid #ccc;
     width: 500px;
-    background: #b0c9bd;
+    background: #eee;
 	opacity:0,4;
 	text-align:center;
-	color:black;
+	color:white;
 }
 div.form-element {
     margin: 20px 0;
@@ -55,6 +55,7 @@ div.form-element {
 button {
     padding: 10px;
     font-size: 1.5rem;
+	width:10%;
     font-weight: 100;
     background: yellowgreen;
     color: white;
