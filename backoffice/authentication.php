@@ -13,7 +13,7 @@
 	  #h1{ 
 		 margin-top:25%;
 	  }
-		</script>
+		</style>
 </head>
 <body>
 
