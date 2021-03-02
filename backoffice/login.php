@@ -27,7 +27,7 @@
 
 h1 {
     font-size: 1.5rem;
-    text-transform: uppercase;
+   
 	margin-bottom:5%;
 }
 label {
