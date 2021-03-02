@@ -16,6 +16,7 @@
 		background:#2F5D3F;  
 		  width:34%;
 		  color:white;
+		  opacity:0,5;
 	  }	  
   * {
     padding: 0;
