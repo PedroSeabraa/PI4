@@ -14,7 +14,10 @@
 body{
 font-family:Arial;
 	}
-
+.inserido{
+text-align:center;
+	margin-top:10%;
+}
 .sidebar-container {
   position: fixed;
   width: 220px;
