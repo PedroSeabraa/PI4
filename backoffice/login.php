@@ -29,8 +29,9 @@ body {
    font-family:Canaro;
 }
 h1 {
-    font-size: 5rem;
+    font-size: 3rem;
     text-transform: uppercase;
+	font-family:Canaro;
 }
 label {
     width: 150px;
