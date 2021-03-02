@@ -22,8 +22,7 @@
 
 body {
     margin: 50px auto;
-    text-align: center;
-    width: 800px;
+  
 }
 h1 {
     font-size: 2rem;
