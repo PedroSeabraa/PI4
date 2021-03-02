@@ -47,7 +47,7 @@ form {
     background: #b0c9bd;
 	opacity:0,4;
 	text-align:center;
-	color:white;
+	color:black;
 }
 div.form-element {
     margin: 20px 0;
