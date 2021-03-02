@@ -60,7 +60,7 @@ font-family:Canaro;
 }
 
 .sidebar-navigation li::before {
-  background-color: #388008;
+  background-color: #2F5D3F;
   position: absolute;
   content: '';
   height: 100%;
@@ -79,7 +79,7 @@ font-family:Canaro;
 .sidebar-navigation .header {
   font-size: 12px;
   text-transform: uppercase;
-  background-color: #2F5D3F;
+  background-color: #151515;
   padding: 10px 15px 10px 30px;
 }
 
