@@ -69,15 +69,15 @@
           <tr>
 		    <th scope="col">Nome</th>
             <th scope="col">Idade</th>
-            <th scope="col">Email</th>
-            <th scope="col">Contacto</th>
-            <th scope="col">Localidade</th>
-            <th scope="col">Codigo Postal</th>
+            <th scope="col">Morada</th>
             <th scope="col">Federado</th>
             <th scope="col">Refeição</th>
-            <th scope="col">Pagamento</th>
+            <th scope="col">Codigo Postal</th>
+            <th scope="col">Federado</th>
+            <th scope="col">Acompanhantes</th>
             <th scope="col">Valor de pagamento</th>
-            <th scope="col">Evento</th>
+            <th scope="col">Email </th>
+            <th scope="col">Contacto</th>
             <th scope="col">Acções</th>
           </tr>
         </thead>
