@@ -72,7 +72,7 @@
             <th scope="col">Morada</th>
             <th scope="col">Federado</th>
             <th scope="col">Refeição</th>
-            <th scope="col">Codigo Postal</th>
+            <th scope="col">Código Postal</th>
             <th scope="col">Acompanhantes</th>
             <th scope="col">Valor de pagamento</th>
             <th scope="col">Email </th>
