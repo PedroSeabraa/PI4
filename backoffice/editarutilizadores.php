@@ -135,10 +135,7 @@ $evento_id=0;
   <br>
   <?php echo '<input type="text" name="codigopostal" value="'.$codigopostal.'">'?>
   <br>Federado:<br>
-  <?php echo '<select name="federado" id="federado" value='.$federado.'>'?>
-  <option value="Sim">Sim</option>
-  <option value="Nao">Não</option>
-</select>
+  <?php echo '<input name="federado" id="federado" value='.$federado.'>'?>
   <br>refeicao:<br>
   <?php echo '<input type="text" name="refeicao" value='.$refeicao.'>'?>
   <br>nr_federado:<br>
