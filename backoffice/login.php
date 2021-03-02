@@ -14,7 +14,8 @@
 	  
 	  #btn{
 		background:#2F5D3F;  
-		  width:10%;
+		  width:34%;
+		  color:white;
 	  }	  
   * {
     padding: 0;
