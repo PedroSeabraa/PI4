@@ -80,7 +80,7 @@ $sql="";
 				('$_POST[Nome]','$_POST[descricao]','$_POST[preco]','$_POST[precof]','$_POST[precor]','$_POST[precoa]','$_POST[data]','$_POST[tipo]','$_POST[foto]','$_POST[longitude]','$_POST[latitude]')")
 
 ?>
-<h1>Inserido com sucesso</h1>
+<h1 class="inserido">Inserido com sucesso</h1>
 </body>
 
 </html>
