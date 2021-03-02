@@ -28,7 +28,7 @@
 h1 {
     font-size: 1.5rem;
     text-transform: uppercase;
-	
+	margin-bottom:5%;
 }
 label {
     width: 150px;
@@ -122,7 +122,7 @@ p.error {
 <div id = "frm">  
       
         <form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">  
-              <h1>Login</h1> 
+              <h1>Iniciar sessão</h1> 
 		<p>  
                 <label> Username: </label>  
                 <input type = "text" id ="user" name  = "user" />  
