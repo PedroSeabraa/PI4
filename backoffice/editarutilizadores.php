@@ -97,23 +97,23 @@ $evento_id=0;
 		$nome=$row[1];
 		$idade=$row[2];
 		$email=$row[13];
-        $contacto=$row[4];
-        $localidade=$row[5];
-        $codigopostal=$row[6];
-        $federado=$row[7];
-        $refeicao=$row[8];
-        $nr_federado=$row[9];
-        $pagamento=$row[10];
-        $acompanhantes=$row[11];
-        $genero=$row[12];
-        $valor_pagamento=$row[3];
-        $evento_id_evento=$row[14];
+        $contacto=$row[14];
+        $localidade=$row[3];
+        $codigopostal=$row[12];
+        $federado=$row[4];
+        $refeicao=$row[5];
+        $nr_federado=$row[6];
+        $pagamento=$row[7];
+        $acompanhantes=$row[8];
+        $genero=$row[9];
+        $valor_pagamento=$row[10];
+        $evento_id_evento=$row[11];
     }
 
     
 
 ?>
- <form action="atualizarcontactos.php" method="post">
+ <form action="atualizarutilizador.php" method="post">
   <?php echo '<input type="hidden" name="id" value="'.$id.'"> '?>
   Nome:
   <br>
