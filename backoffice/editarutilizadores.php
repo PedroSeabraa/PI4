@@ -96,7 +96,7 @@ $evento_id=0;
 		$id=$row[0];
 		$nome=$row[1];
 		$idade=$row[2];
-		$email=$row[3];
+		$email=$row[13];
         $contacto=$row[4];
         $localidade=$row[5];
         $codigopostal=$row[6];
@@ -106,7 +106,7 @@ $evento_id=0;
         $pagamento=$row[10];
         $acompanhantes=$row[11];
         $genero=$row[12];
-        $valor_pagamento=$row[13];
+        $valor_pagamento=$row[3];
         $evento_id_evento=$row[14];
     }
 
