@@ -40,11 +40,12 @@ input {
 	margin-top:4%;
 }
 form {
-    margin: 25% auto;
-    padding: 20px;
+    margin: 15% auto;
+    padding: 30px;
     border: 5px solid #ccc;
     width: 500px;
-    background: #2F5D3F;
+    background: #009973;
+	opacity:0,4;
 	text-align:center;
 	color:white;
 }
