@@ -39,11 +39,14 @@ input {
     padding: 10px;
 }
 form {
-    margin: 25px auto;
+    margin: 25% auto;
     padding: 20px;
     border: 5px solid #ccc;
     width: 500px;
     background: #2F5D3F;
+	opacity:0.7;
+	text-align:center;
+	color:white;
 }
 div.form-element {
     margin: 20px 0;
