@@ -111,23 +111,23 @@ $latitude=0;
   <br>
   <?php echo '<input type="text" name="nome" value="'.$nome.'"> '?>
   <br>
-  Descricao:<br>
+  Descrição:<br>
   <?php echo '<textarea rows="4" cols="50" name="descricao" > '.$descricao.' </textarea>'?>
   <br>
-  preço:<br>
+  Preço:<br>
   <?php echo '<input type="number" name="preco" value='.$preco.'>'?>
   <br>
-  Preço Federrado:
+  Preço Federado:
   <br>
   <?php echo '<input type="number" name="precof" value="'.$precof.'">'?>
   <br>
-  preço refeição:<br>
+  Preço Refeição:<br>
   <?php echo '<input type="number" name="precor" value='.$precor.'>'?>
   <br>
-  preço Acompanhantes:<br>
+  Preço Acompanhantes:<br>
   <?php echo '<input type="number" name="precoa" value='.$precoa.'>'?>
   <br>
-  data:<br>
+  Data:<br>
   <?php echo '<input type="date" name="data" value='.$data.'>'?>
   <br>
   Tipo:<br>
