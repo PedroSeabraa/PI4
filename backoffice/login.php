@@ -26,12 +26,12 @@ body {
     margin: 50px auto;
     text-align: center;
     width: 800px;
-   font-family:Canaro;
+   font-family:Arial;
 }
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase;
-	font-family:Canaro;
+	
 }
 label {
     width: 150px;
