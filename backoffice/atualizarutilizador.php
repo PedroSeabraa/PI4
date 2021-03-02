@@ -65,9 +65,9 @@ if(empty($_SESSION))
 }
 require 'dbconfig.php';
 
-    mysqli_query($connection,"UPDATE utilizador SET 
+    mysqli_query($connection,"UPDATE utilizadores SET 
 	nome='$_POST[nome]',idade='$_POST[idade]',
-	email='$_POST[email]',contacto='$_POST[contacto]' WHERE id_admin=$_POST[id]");
+	email='$_POST[email]',contacto='$_POST[contacto]' ,localidade='$_POST[localidade]', codigo_postal='$_POST[codigopostal]', federado='$_POST[federado]', refeicao='$_POST[refeicao]', nr_federado='$_POST[nr_federado]', pagamento='$_POST[pagamento]', acompanhante='$_POST[acompanhantes]', genero='$_POST[genero]', valor_pagamento='$_POST[valor_pagamento]', evento_id_evento='$_POST[evento_id_evento]', WHERE id_utilizador=$_POST[id]");
  
  echo "<script> location.href='utilizadores.php'; </script>";
 ?>
