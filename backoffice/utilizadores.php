@@ -77,6 +77,7 @@
             <th scope="col">Valor de pagamento</th>
             <th scope="col">Email </th>
             <th scope="col">Contacto</th>
+            <th scope="col">Evento</th>
             <th scope="col">Acções</th>
           </tr>
         </thead>
@@ -106,7 +107,7 @@ while($row2 = mysqli_fetch_array($result2))
 {
     $dataRow = $dataRow."<tr><td>$row2[1]</td><td>$row2[2]</td><td>$row2[3]</td><td>$row2[4]</td>
     <td>$row2[5]</td><td>$row2[12]</td><td>$row2[8]</td><td>$row2[10]</td>
-    <td>$row2[13]</td><td>$row2[14]</td><td><a href=editarutilizadores.php?id=".$row2[0]." >Editar</a><br><a href=apagarutilizador.php?id=".$row2[0]." >Apagar</a></td></tr>";
+    <td>$row2[13]</td><td>$row2[14]</td><td>$row2[11]</td><td><a href=editarutilizadores.php?id=".$row2[0]." >Editar</a><br><a href=apagarutilizador.php?id=".$row2[0]." >Apagar</a></td></tr>";
 }
 
  echo $dataRow;?>		
