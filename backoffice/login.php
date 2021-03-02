@@ -37,6 +37,7 @@ input {
     font-size: 1.5rem;
     font-weight: 100;
     padding: 10px;
+	margin-top:4%;
 }
 form {
     margin: 25% auto;
@@ -44,7 +45,6 @@ form {
     border: 5px solid #ccc;
     width: 500px;
     background: #2F5D3F;
-	opacity:0.7;
 	text-align:center;
 	color:white;
 }
