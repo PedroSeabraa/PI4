@@ -48,7 +48,7 @@ form {
     padding: 20px;
     border: 5px solid #ccc;
     width: 500px;
-    background: #eee;
+    background: #2F5D3F;
 }
 div.form-element {
     margin: 20px 0;
@@ -115,9 +115,10 @@ p.error {
 <div class="content-container">
 
 <div id = "frm">  
-        <h1>Login</h1>  
+      
         <form name="f1" action = "authentication.php" onsubmit = "return validation()" method = "POST">  
-            <p>  
+              <h1>Login</h1> 
+		<p>  
                 <label> Username: </label>  
                 <input type = "text" id ="user" name  = "user" />  
             </p>  
