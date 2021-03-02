@@ -58,7 +58,7 @@ require 'dbconfig.php';
 
     mysqli_query($connection,"UPDATE contacto SET 
 	morada='$_POST[morada]',telefone='$_POST[telefone]',
-	email='$_POST[email]',facebook='$_POST[facebook]',instagram='$_POST[instagram]' WHERE id_contacto=$_POST[id]");
+	email='$_POST[email]',facebook='$_POST[facebook]',instagram='$_POST[instagram]',informacao='$_POST[info]' WHERE id_contacto=$_POST[id]");
  
  echo "<script> location.href='contactos.php'; </script>";
 ?>
