@@ -41,10 +41,10 @@ input {
 }
 form {
     margin: 15% auto;
-    padding: 30px;
+    padding: 20px;
     border: 5px solid #ccc;
     width: 500px;
-    background: #009973;
+    background: #b0c9bd;
 	opacity:0,4;
 	text-align:center;
 	color:white;
