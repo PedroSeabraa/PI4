@@ -69,7 +69,7 @@ require 'dbconfig.php';
 	nome='$_POST[nome]',idade='$_POST[idade]',
 	email='$_POST[email]',contacto='$_POST[contacto]' WHERE id_admin=$_POST[id]");
  
- echo "<script> location.href='utilizador.php'; </script>";
+ echo "<script> location.href='utilizadores.php'; </script>";
 ?>
 
 </body>
