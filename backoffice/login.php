@@ -24,9 +24,9 @@ body {
     margin: 50px auto;
     text-align: center;
     width: 800px;
+    font-family:Canaro;
 }
 h1 {
-    font-family: Canaro;
     font-size: 2rem;
     text-transform: uppercase;
 }
@@ -35,13 +35,12 @@ label {
     display: inline-block;
     text-align: left;
     font-size: 1.5rem;
-    font-family: Canaro;
+    
 }
 input {
     border: 2px solid #ccc;
     font-size: 1.5rem;
     font-weight: 100;
-    font-family: Canaro;
     padding: 10px;
 }
 form {
@@ -57,7 +56,6 @@ div.form-element {
 button {
     padding: 10px;
     font-size: 1.5rem;
-    font-family: Canaro;
     font-weight: 100;
     background: yellowgreen;
     color: white;
@@ -66,7 +64,6 @@ button {
 p.success,
 p.error {
     color: white;
-    font-family: lato;
     background: yellowgreen;
     display: inline-block;
     padding: 2px 10px;
