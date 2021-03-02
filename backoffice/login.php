@@ -11,10 +11,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <style>  
-	  @font-face{
-         font-family:'Canaro';
-	src: url(/css/Canaro-Book.ttf);
-	  }
+	  
 	  
   * {
     padding: 0;
@@ -27,7 +24,6 @@ body {
     margin: 50px auto;
     text-align: center;
     width: 800px;
-   font-family:Canaro;
 }
 h1 {
     font-size: 2rem;
