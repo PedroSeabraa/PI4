@@ -12,7 +12,10 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <style>  
 	  
-	  
+	  #btn{
+		background:#2F5D3F;  
+		  width:10%;
+	  }	  
   * {
     padding: 0;
     margin: 0;
@@ -21,7 +24,7 @@
 	
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
 	
 }
@@ -34,7 +37,7 @@ label {
 }
 input {
     border: 2px solid #ccc;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 100;
     padding: 10px;
 	margin-top:4%;
@@ -54,7 +57,7 @@ div.form-element {
 }
 button {
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 	width:10%;
     font-weight: 100;
     background: yellowgreen;
