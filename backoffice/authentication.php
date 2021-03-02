@@ -10,7 +10,7 @@
 	
 	<style>  
 	  
-	  #h1{ 
+	  h1{ 
 		 margin-top:25%;
 	  }
 		</style>
