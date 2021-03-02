@@ -18,16 +18,16 @@
 }
 	  @font-face{
 font-family:'Canaro';
-	src: url(databasepi4.herokuapp.com/font/Canaro-Book.ttf);
+	src: url(./font/Canaro-Book.ttf);
 }
 body {
     margin: 50px auto;
     text-align: center;
     width: 800px;
-    font-family:Canaro;
+   font-family:Canaro;
 }
 h1 {
-    font-size: 2rem;
+    font-size: 5rem;
     text-transform: uppercase;
 }
 label {
