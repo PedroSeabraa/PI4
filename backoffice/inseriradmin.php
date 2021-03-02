@@ -100,7 +100,7 @@ else{
  
 
 ?>
-<h1>Inserido com sucesso</h1>
+<h1 class="inserido">Inserido com sucesso</h1>
 </body>
 
 </html>
