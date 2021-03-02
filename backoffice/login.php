@@ -16,7 +16,7 @@
 		  width:34%;
 		  color:#2F5D3F;
 		   border: 2px solid #2F5D3F;
-		 
+		 font-weight: 100;
 	  }	  
   * {
     padding: 0;
