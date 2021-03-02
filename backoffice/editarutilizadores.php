@@ -131,27 +131,27 @@ $evento_id=0;
   <br>Localidade:<br>
   <?php echo '<input type="text" name="localidade" value='.$localidade.'>'?>
 	<br>
-  Codigo Postal
+  Código Postal
   <br>
   <?php echo '<input type="text" name="codigopostal" value="'.$codigopostal.'">'?>
   <br>Federado:<br>
   <?php echo '<input name="federado" id="federado" value='.$federado.'>'?>
-  <br>refeicao:<br>
+  <br>rRefeição:<br>
   <?php echo '<input type="text" name="refeicao" value='.$refeicao.'>'?>
-  <br>nr_federado:<br>
+  <br>Nr_federado:<br>
   <?php echo '<input type="number" name="nr_federado" value='.$nr_federado.'>'?>
-  <br>pagamento:<br>
+  <br>Pagamento:<br>
   <?php echo '<input type="number" name="pagamento" value='.$pagamento.'>'?>
   <br>Acompanhante:<br>
   <?php echo '<input type="number" name="acompanhantes" value='.$acompanhantes.'>'?>
-  <br>Genero:<br>
+  <br>Gênero:<br>
   <?php echo '<select name="genero" id="genero" value='.$genero.'>'?>
   <option value="Masculino">Masculino</option>
   <option value="Feminino">Feminino</option>
 </select>
-  <br>valor_pagamento:<br>
+  <br>Valor pagamento:<br>
   <?php echo '<input type="number" name="valor_pagamento" value='.$valor_pagamento.'>'?>
-  <br>evento_id_evento:<br>
+  <br>Id_evento:<br>
   <?php echo '<input type="number" name="evento_id_evento" value='.$evento_id_evento.'>'?>
   <input type="submit" value="Submit">
 </form> 
